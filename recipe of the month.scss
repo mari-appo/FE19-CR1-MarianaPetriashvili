@@ -1,0 +1,55 @@
+.box {
+    text-align: left;
+    box-shadow: 5px 5px 50px grey;
+    position: relative;
+    background: transparent;
+    margin: 0 auto;
+    text-align: justify;
+    width: 1200px;
+    h1 {
+        color: palevioletred;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    h2 {
+        color: #3998A3;
+    }
+    h3 {
+        color: black;
+    }
+    .hero {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 100px;
+    }
+}
+
+.content {
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    p {
+        color: black;
+    }
+    li {
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    hr {
+        color: #008b8b;
+    }
+}
+
+.rating {
+    padding-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    span {
+        color: palevioletred;
+        font-size: 25px;
+    }
+}

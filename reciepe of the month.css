@@ -1,0 +1,57 @@
+.box {
+  text-align: left;
+  box-shadow: 5px 5px 50px grey;
+  position: relative;
+  background: transparent;
+  margin: 0 auto;
+  text-align: justify;
+  width: 1200px;
+}
+.box h1 {
+  color: palevioletred;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.box h2 {
+  color: #3998A3;
+}
+.box h3 {
+  color: black;
+}
+.box .hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+}
+
+.content {
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.content p {
+  color: black;
+}
+.content li {
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.content hr {
+  color: #008b8b;
+}
+
+.rating {
+  padding-bottom: 30px;
+  align-items: center;
+}
+.rating p {
+  text-align: center;
+}
+.rating span {
+  color: palevioletred;
+  font-size: 25px;
+}/*# sourceMappingURL=reciepe of the month.css.map */

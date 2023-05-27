@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #008b8b;
+  border: 1px solid palevioletred;
+  padding: 10px;
+}
+.nav .nav-item {
+  display: flex;
+  gap: 120px;
+  list-style-type: none;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+  /* width: 100px; */
+  font-size: 15px;
+}
+.nav .nav-item .links {
+  text-decoration: none;
+  color: lightgray;
+  transition: 2s;
+  padding: 10px;
+}
+.nav .nav-item .links:hover {
+  border-bottom: 2px solid lightgray;
+  border-top: 2px solid palevioletred;
+}
+
+.container {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 40px;
+  align-items: center;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container #p1 {
+  font-family: "Rochester", cursive;
+  font-size: 25px;
+  font-style: italic;
+  flex-basis: 80%;
+}
+.container #p2 {
+  text-align: end;
+  padding-left: 40px;
+}
+.container .recipe {
+  text-decoration: none;
+  color: black;
+}
+.container .img {
+  width: 40px;
+}
+
+.box {
+  text-align: left;
+  box-shadow: 2px 0px 20px white;
+  position: relative;
+  background: rgba(0, 139, 139, 0.737254902);
+  margin: 0 auto;
+  text-align: justify;
+  width: 1200px;
+}
+.box h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Rochester", cursive;
+  font-size: 50px;
+}
+.box h2 {
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+.box .hero {
+  width: 1200px;
+  text-align: center;
+  box-shadow: 2px 2px 20 500px rgba(128, 128, 128, 0.516);
+}
+.box .hero hr {
+  width: 50%;
+  margin-left: 25%;
+  color: aliceblue;
+}
+
+.content {
+  padding-bottom: 50px;
+  color: aliceblue;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+}
+footer .media {
+  display: flex;
+  padding-top: 30px;
+  gap: 20px;
+  justify-content: center;
+}
+footer .divider {
+  border-left: 3px solid white;
+  height: 20px;
+}
+footer #copyright {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 30px;
+}
+footer .footer1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+footer .footer1 #p3 {
+  color: aliceblue;
+}
+footer .footer1 #p4 {
+  color: aliceblue;
+}
+footer .footer1 #p5 {
+  color: aliceblue;
+}
+footer .footer1 .contact {
+  text-decoration: none;
+  color: aliceblue;
+}
+footer .footer1 .about {
+  text-decoration: none;
+  color: aliceblue;
+}/*# sourceMappingURL=about.css.map */
